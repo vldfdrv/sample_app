@@ -3,7 +3,7 @@ ruby '2.2.3'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.2.4'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '2.3.2.0'
 
 group :development, :test do
   gem 'rspec-rails'
@@ -13,6 +13,7 @@ end
 group :test do
   gem 'selenium-webdriver'
   gem 'capybara'
+  gem 'factory_girl_rails', '4.2.1'
 end
 
 gem 'sass-rails'
